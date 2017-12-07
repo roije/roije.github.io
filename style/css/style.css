@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px; }
+
+body {
+  padding: 20px 0px;
+  font-family: 'Montserrat', sans-serif;
+  background: #f1f1f1; }
+
+h2 {
+  font-size: 1.4em; }
+
+h3 {
+  font-size: 1.2em; }
+
+h4 {
+  font-size: 1em; }
+
+p {
+  margin-top: 0.8em;
+  color: #333333; }
+
+.title-container {
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #1E8BC3;
+  padding: 15px; }
+
+.box {
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #bdbdbd;
+  border-top: none; }
+  .box.full-border {
+    padding: 20px;
+    border: 1px solid #bdbdbd; }
+
+.skills-sub-header {
+  margin-top: 5px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #3496c9;
+  padding: 15px; }
+
+header {
+  display: flex;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #bdbdbd; }
+  header .header-image {
+    flex: 1;
+    text-align: center; }
+    header .header-image img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%; }
+  header .header-name {
+    flex: 2; }
+    header .header-name .header-name-value {
+      padding: 16px 0px;
+      color: #333333; }
+
+.content {
+  display: flex; }
+  .content .content-left {
+    margin-right: 7.5px;
+    flex: 1; }
+    .content .content-left .content-left-section {
+      margin-top: 15px; }
+    .content .content-left .contact-content {
+      text-align: right; }
+    .content .content-left .hobby-text {
+      text-align: left; }
+      .content .content-left .hobby-text span {
+        color: #1E8BC3;
+        font-weight: bold;
+        font-size: 1.2em; }
+    .content .content-left .skills-content .skills-content-note {
+      margin-bottom: 5px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid #bdbdbd; }
+    .content .content-left .skills-content .skills-content-row {
+      color: red;
+      display: flex;
+      text-align: right;
+      justify-content: center;
+      margin-top: 10px; }
+      .content .content-left .skills-content .skills-content-row .skils-content-item {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        .content .content-left .skills-content .skills-content-row .skils-content-item.right {
+          justify-content: right; }
+        .content .content-left .skills-content .skills-content-row .skils-content-item p {
+          flex: 2;
+          margin: 0px;
+          text-align: left; }
+        .content .content-left .skills-content .skills-content-row .skils-content-item svg {
+          flex: 1; }
+        .content .content-left .skills-content .skills-content-row .skils-content-item .svg-image {
+          flex: 1;
+          width: 20px;
+          height: 20px; }
+  .content .content-right {
+    flex: 2;
+    margin-left: 7.5px; }
+    .content .content-right .content-right-section {
+      padding-left: 15px;
+      margin-top: 15px;
+      border-left: 5px solid #1E8BC3; }
+      .content .content-right .content-right-section .content-right-section-header {
+        color: #333333;
+        margin-bottom: 5px;
+        font-weight: bold; }
+      .content .content-right .content-right-section .about-text {
+        text-align: justify;
+        line-height: 1.5em; }
+      .content .content-right .content-right-section .content-right-section-sub-header {
+        margin-top: 10px;
+        color: #333333;
+        text-transform: uppercase; }
+      .content .content-right .content-right-section .content-right-section-content .content-right-section-value {
+        display: flex; }
+        .content .content-right .content-right-section .content-right-section-content .content-right-section-value .year {
+          flex: 1; }
+        .content .content-right .content-right-section .content-right-section-content .content-right-section-value .value {
+          flex: 2; }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  header {
+    flex-direction: column;
+    text-align: center; }
+    header .header-name {
+      margin-top: 10px; }
+      header .header-name .title-container {
+        display: none; }
+
+  .content {
+    flex-direction: column; }
+    .content .content-right {
+      order: 1;
+      margin: 0px; }
+    .content .content-left {
+      order: 2;
+      display: flex;
+      flex-direction: column; }
+      .content .content-left .skills {
+        order: 1; }
+      .content .content-left .language {
+        order: 2; }
+      .content .content-left .hobbies {
+        order: 3; }
+      .content .content-left .contact {
+        order: 4; } }
+
+/*# sourceMappingURL=style.css.map */

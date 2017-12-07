@@ -1,0 +1,236 @@
+@import '_vars.scss';
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    padding: 20px 0px;
+    font-family: 'Montserrat', sans-serif;
+    background: #f1f1f1;
+}
+
+h2{
+    font-size: 1.4em;
+}
+h3{
+    font-size: 1.2em;
+}
+h4{
+    font-size: 1em;
+}
+
+p{
+    margin-top: 0.8em;
+    color: $text-color;
+}
+
+
+.title-container{
+    text-transform: uppercase;
+    color: #fff;    
+    background-color: $main-blue;
+    padding: 15px;
+}
+
+.box{
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #bdbdbd;
+    border-top: none;
+
+    &.full-border{
+        padding: 20px;
+        border: 1px solid #bdbdbd;
+    }
+}
+
+.skills-sub-header{
+    margin-top: 5px;
+    text-transform: uppercase;
+    color: #fff;    
+    background-color: $secondary-blue;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #bdbdbd;
+    .header-image{
+        flex: 1;
+        text-align: center;
+        img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+    }
+    .header-name{
+        flex: 2;
+
+        .header-name-value{
+            padding: 16px 0px;
+            color: $text-color;
+        }
+    }
+}
+
+.content{
+    display: flex;
+
+    .content-left{
+        margin-right: 7.5px;
+        flex: 1;
+
+        .content-left-section{
+            margin-top: 15px;   
+        }
+
+        .contact-content{
+            text-align: right;
+        }
+
+        .hobby-text{
+            text-align: left;
+
+            span{
+                color: $main-blue;
+                font-weight: bold;
+                font-size: 1.2em;
+            }
+        }
+
+        .skills-content{
+            .skills-content-note{
+                margin-bottom: 5px;
+                padding-bottom: 5px;
+                border-bottom: 1px solid #bdbdbd;
+            }
+            .skills-content-row{
+                color: red;
+                display: flex;
+                text-align: right;
+                justify-content: center;
+                margin-top: 10px;
+
+                .skils-content-item{
+                    flex: 1;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    &.right{
+                        justify-content: right;
+                    }
+
+                    p{
+                        flex: 2;
+                        margin: 0px;
+                        text-align: left;
+                    }
+
+                    svg{
+                        flex: 1;    
+                    }
+
+                    .svg-image{
+                        flex: 1;
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .content-right{
+        flex: 2;
+        margin-left: 7.5px;
+        .content-right-section{
+            padding-left: 15px;
+            margin-top: 15px;
+            
+            border-left: 5px solid $main-blue;
+            .content-right-section-header{
+                color: $text-color;
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
+
+            .about-text{
+                text-align: justify;
+                line-height: 1.5em;
+            }
+
+            .content-right-section-sub-header{
+                margin-top: 10px;
+                color: $text-color;
+                text-transform: uppercase;
+            }
+
+            .content-right-section-content{
+                .content-right-section-value{
+                    display: flex;
+
+                    .year{
+                        flex: 1;
+                    }
+
+                    .value{
+                        flex: 2;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px)  {
+  header{
+      flex-direction: column;
+      text-align: center;
+
+      .header-name{
+          margin-top: 10px;
+
+          .title-container{
+              display: none;
+          }
+      }
+  }
+
+  .content{
+      flex-direction: column;
+
+      .content-right{
+          order: 1;
+          margin: 0px;
+      }
+
+      .content-left{
+          order: 2;
+          display: flex;
+          flex-direction: column;
+          
+          .skills{
+              order: 1;
+          }
+
+          .language{
+              order: 2;
+          }
+
+          .hobbies{
+              order: 3;
+          }
+
+          .contact {
+              order: 4;
+          }
+      }
+  }
+}
