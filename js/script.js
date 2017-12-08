@@ -69,7 +69,7 @@ var languages = {
         "hobby2" : "<span>></span> When I am relaxing I like to read - I'm a fan of Stephen King books, The Song of Ice and Fire series and I love Tolkien's Middle-earth universe</p>",
         "hobby3" : "<span>></span>  If I don't have any plans I can spend a whole Saturday watching Premier League football</p>",
         "unix" : "Unix based commands",
-        "planguage" : "Language:"
+        "languageHeader" : "Language:"
         
     },
     "da" : {
@@ -106,7 +106,7 @@ var languages = {
         "hobby2" : "<span>></span> Når jeg slapper af kan jeg godt lide at læse en bog - jeg er stor fan af Stephen King bøger, The Song of Ice and Fire serien og jeg elsker Tolkien's Middle-wearth univers</p>",
         "hobby3" : "<span>></span>  Hvis jeg ikke skal noget andet, kan jeg bruge en hel Lørdag på sofaen med Premier League fodbold",
         "unix" : "Unix baserede kommandoer",
-        "planguage" : "Sprog:"
+        "languageHeader" : "Sprog:"
     },
 }
  
