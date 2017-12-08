@@ -29,7 +29,7 @@ p {
 
 .box {
   background: #fff;
-  padding: 15px;
+  padding: 30px;
   border: 1px solid #bdbdbd;
   border-top: none; }
   .box.full-border {
@@ -43,23 +43,40 @@ p {
   background-color: #3496c9;
   padding: 15px; }
 
-header {
+.language-options-holder {
   display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+  .language-options-holder p {
+    margin-right: 10px; }
+  .language-options-holder .custom-select {
+    width: 200px;
+    margin-right: 10px; }
+  .language-options-holder .flag-holder {
+    width: 20px;
+    height: 25px; }
+    .language-options-holder .flag-holder img {
+      width: 100%;
+      height: 100%; }
+
+header {
   margin-bottom: 15px;
   padding-bottom: 15px;
   border-bottom: 1px solid #bdbdbd; }
-  header .header-image {
-    flex: 1;
-    text-align: center; }
-    header .header-image img {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%; }
-  header .header-name {
-    flex: 2; }
-    header .header-name .header-name-value {
-      padding: 16px 0px;
-      color: #333333; }
+  header .header-info-content {
+    display: flex; }
+    header .header-info-content .header-image {
+      flex: 1;
+      text-align: center; }
+      header .header-info-content .header-image img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%; }
+    header .header-info-content .header-name {
+      flex: 2; }
+      header .header-info-content .header-name .header-name-value {
+        padding: 16px 0px;
+        color: #333333; }
 
 .content {
   display: flex; }
