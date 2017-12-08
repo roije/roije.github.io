@@ -68,7 +68,8 @@ var languages = {
         "hobby1" : "<span>></span> Programming and surfing the internet to gain knowledge about a technology. I love to work on projects, and at the same time read blogs about a certain technology that I want to implement",
         "hobby2" : "<span>></span> When I am relaxing I like to read - I'm a fan of Stephen King books, The Song of Ice and Fire series and I love Tolkien's Middle-earth universe</p>",
         "hobby3" : "<span>></span>  If I don't have any plans I can spend a whole Saturday watching Premier League football</p>",
-        "unix" : "Unix based commands"
+        "unix" : "Unix based commands",
+        "planguage" : "Language"
         
     },
     "da" : {
@@ -104,7 +105,8 @@ var languages = {
         "hobby1" : "<span>></span> Programmering og at surfe internettet for at lære mere om en teknologi. Jeg elsker at arbejde på projekter, og på samme tid læse blogger, artikler og på forummer om en bestemt teknologi som jeg gerne vil implementere</p>",
         "hobby2" : "<span>></span> Når jeg slapper af kan jeg godt lide at læse en bog - jeg er stor fan af Stephen King bøger, The Song of Ice and Fire serien og jeg elsker Tolkien's Middle-wearth univers</p>",
         "hobby3" : "<span>></span>  Hvis jeg ikke skal noget andet, kan jeg bruge en hel Lørdag på sofaen med Premier League fodbold",
-        "unix" : "Unix baserede kommandoer"
+        "unix" : "Unix baserede kommandoer",
+        "planguage" : "Sprog"
     },
 }
  
