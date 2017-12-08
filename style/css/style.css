@@ -146,12 +146,12 @@ header {
           flex: 2; }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  header {
+  .header-info-content {
     flex-direction: column;
     text-align: center; }
-    header .header-name {
+    .header-info-content .header-name {
       margin-top: 10px; }
-      header .header-name .title-container {
+      .header-info-content .header-name .title-container {
         display: none; }
 
   .content {

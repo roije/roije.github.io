@@ -14,12 +14,9 @@
         <div class="language-options-holder">
             <p>Language:</p>
             <select class="form-control custom-select" id="language-select">
-                <option selected>English</option>
-                <option>Danish</option>
+                <option selected>EN</option>
+                <option>DA</option>
             </select>
-            <div class="flag-holder">
-                <img src="img/danish-flag.png">
-            </div>
         </div>
         <header class="box full-border">
             <div class="header-info-content">
@@ -68,7 +65,7 @@
                         <h4 class="translateable" data-id="programmingAndTechnologies">Programming languages and technologies</h4>
                     </div>
                     <div class="skills-content box">
-                        <p class="skills-content-note">Programming languages and technologies I have worked with or had some experience with throughout my education, internship or in my free time:</p>
+                        <p class="skills-content-note translateable" data-id="programmingSkillsNote">Programming languages and technologies I have worked with or had some experience with throughout my education, internship or in my free time:</p>
                             <div class="skills-content-row">
                                 <div class="skils-content-item">
                                     <img class="svg-image" src="img/svg/javascript.svg"><p>Javascript</p>
@@ -194,7 +191,7 @@
                         <h4>Software</h4>
                     </div>
                     <div class="skills-content box"> 
-                        <p class="skills-content-note">Software, services and operating systems that I have used and have gained experinced with as part of my education or my free time</p>                        
+                        <p class="skills-content-note translateable" data-id="softwareSkillsNote">Software, services and operating systems that I have used and have gained experinced with as part of my education or my free time</p>                        
                         <div class="skills-content-row">
                             <div class="skils-content-item">
                                 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -230,7 +227,7 @@
                             </div>
                             <div class="skils-content-item">
                                 <img class="svg-image" src="img/svg/terminal.svg">
-                                <p>Unix based commands</p>
+                                <p class="translateable" data-id="unix">Unix based commands</p>
                             </div>
                         </div>
                         <div class="skills-content-row">
@@ -255,12 +252,12 @@
                 </div>
                 <div class="content-left-section hobbies">
                         <div class="title-container">
-                            <h3>Hobbies</h3>
+                            <h3 class="translateable" data-id="hobbies">Hobbies and interests</h3>
                         </div>
                         <div class="contact-content box">
-                            <p class="hobby-text"><span>></span> Programming and surfing the internet to gain knowledge about a technology. I love to work on projects, and at the same time read blogs about a certain technology that I want to implement</p>
-                            <p class="hobby-text"><span>></span> When I am relaxing I like to read - I'm a fan of Stephen King books, The Song of Ice and Fire series and I love Tolkien's Middle-earth universe</p>
-                            <p class="hobby-text"><span>></span>  If I don't have any plans I can spend a whole Saturday watching Premier League football</p>
+                            <p class="hobby-text translateable" data-id="hobby1"><span>></span> Programming and surfing the internet to gain knowledge about a technology. I love to work on projects, and at the same time read blogs about a certain technology that I want to implement</p>
+                            <p class="hobby-text translateable" data-id="hobby2"><span>></span> When I am relaxing I like to read - I'm a fan of Stephen King books, The Song of Ice and Fire series and I love Tolkien's Middle-earth universe</p>
+                            <p class="hobby-text translateable" data-id="hobby3"><span>></span>  If I don't have any plans I can spend a whole Saturday watching Premier League football</p>
                         </div>
                     </div>
             </div>
@@ -272,27 +269,29 @@
                     <div class="about-content">
                         <p><b class="translateable" data-id="birthday">Birthday:</b> 11-12-1991</p>
                         <p><b class="translateable" data-id="nationality">Nationality:</b> Faroese</p>
-                        <p class="about-text">
-                            Throughout my education I have gained experience with projects, project management and working with other people and companies.
-                            My education has also given me knowledge about algorithms, data structures, and I have acquired experience with working with design patterns and software development work processes.
-                        </p>
-                        <p class="about-text">
-                            I am a person that gets inspired by responsibilities because responsibility motivates me to do more than what is expected of me. I love to be completely consumed by a given task - and if any issues arise, I am the kind of guy who contains the composure and will work for hours until the task is done. 
-                        </p>
-                        <p class="about-text">
-                            If you are looking for a responsible, honest and ambitious person, I am the right choice for you. I am a good colleague with a love for great cooperative work, but who also has a strength in working independetly.
-                        </p>
-                        <p class="about-text">
-                            Because of the interest in web development and web technologies the Computer Science education gave me, I decided to continue with my studying and take a BA in Web Development from Københavns Erhvervsakademi which I will finish in 2019.
-                        </p>
+                        <div class="about-text-holder translateable" data-id="aboutText">
+                            <p class="about-text">
+                                Throughout my education I have gained experience with projects, project management and working with other people and companies.
+                                My education has also given me knowledge about algorithms, data structures, and I have acquired experience with working with design patterns and software development work processes.
+                            </p>
+                            <p class="about-text">
+                                I am a person that gets inspired by responsibilities because responsibility motivates me to do more than what is expected of me. I love to be completely consumed by a given task - and if any issues arise, I am the kind of guy who contains the composure and will work for hours until the task is done. 
+                            </p>
+                            <p class="about-text">
+                                If you are looking for a responsible, honest and ambitious person, I am the right choice for you. I am a good colleague with a love for great cooperative work, but who also has a strength in working independetly.
+                            </p>
+                            <p class="about-text">
+                                Because of the interest in web development and web technologies the Computer Science education gave me, I decided to continue with my studying and take a BA in Web Development from Københavns Erhvervsakademi which I will finish in 2019.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="content-right-section box full-border">
                     <div class="content-right-section-header">
-                        <h2>Education</h2>
+                        <h2 class="translateable" data-id="education">Education</h2>
                     </div>
                     <div class="content-right-section-sub-header">
-                        <h4>Public school</h4>
+                        <h4 class="translateable" data-id="publicSchool">Public school</h4>
                     </div>
                     <div class="content-right-section-content">
                         <div class="content-right-section-value">
@@ -301,7 +300,7 @@
                         </div>
                     </div>
                     <div class="content-right-section-sub-header">
-                        <h4>Higher Commercial Examination Programme (HHX)</h4>
+                        <h4 class="translateable" data-id="hhx">Higher Commercial Examination Programme (HHX)</h4>
                     </div>
                     <div class="content-right-section-content">
                         <div class="content-right-section-value">
@@ -310,7 +309,7 @@
                         </div>
                     </div>
                     <div class="content-right-section-sub-header">
-                        <h4>AP Degree in Computer Science</h4>
+                        <h4 class="translateable" data-id="compScience">AP Degree in Computer Science</h4>
                     </div>
                     <div class="content-right-section-content">
                         <div class="content-right-section-value">
@@ -319,32 +318,32 @@
                         </div>
                     </div>
                     <div class="content-right-section-sub-header">
-                        <h4>PBA in Web Development</h4>
+                        <h4 class="translateable" data-id="pbaWeb">PBA in Web Development</h4>
                     </div>
                     <div class="content-right-section-content">
                         <div class="content-right-section-value">
-                            <p class="year">2017-2019 (expected)</p>
+                            <p class="year translateable" data-id="yearExpect">2017-2019 (expected)</p>
                             <p class="value">Københavns Erhvervsakadami</p>
                         </div>
                     </div>
                 </div>
                 <div class="content-right-section box full-border">
                     <div class="content-right-section-header">
-                        <h2>Internship</h2>
+                        <h2 class="translateable" data-id="internship">Internship</h2>
                     </div>
                     <div class="content-right-section-sub-header">
                         <h4>Culina plan A/S</h4>
                     </div>
                     <div class="content-right-section-content">
                         <div class="content-right-section-value">
-                            <p class="year">January 2017 - March 2017</p>
-                            <p class="value">Worked as a fullstack developer on a food, nutrition and budget management web application for daycare centers where I gained experience in technologies such as React, Redux, NodeJS and PostgreSQL</p>
+                            <p class="year translateable" data-id="internPeriod">January 2017 - March 2017</p>
+                            <p class="value translateable" data-id="internText">Worked as a fullstack developer on a food, nutrition and budget management web application for daycare centers where I gained experience in technologies such as React, Redux, NodeJS and PostgreSQL</p>
                         </div>
                     </div>
                 </div>
                 <div class="content-right-section box full-border">
                     <div class="content-right-section-header">
-                        <h2>Work experience</h2>
+                        <h2 class="translateable" data-id="workExperience">Work experience</h2>
                     </div>
                     <div class="content-right-section-sub-header">
                         <h4>MS Venus VA51</h4>
@@ -352,7 +351,7 @@
                     <div class="content-right-section-content">
                         <div class="content-right-section-value">
                             <p class="year">2008</p>
-                            <p class="value">Deckhand on a long liner after finished with 10th grade</p>
+                            <p class="value translateable" data-id="workVenus">Deckhand on a long liner after finished with 10th grade</p>
                         </div>
                     </div>
                     <div class="content-right-section-sub-header">
@@ -361,7 +360,7 @@
                     <div class="content-right-section-content">
                         <div class="content-right-section-value">
                             <p class="year">2009</p>
-                            <p class="value">Employee on a filleting plant after finished with 10th grade</p>
+                            <p class="value translateable" data-id="workNordis1">Employee on a filleting plant after finished with 10th grade</p>
                         </div>
                     </div>
                     <div class="content-right-section-sub-header">
@@ -370,7 +369,7 @@
                     <div class="content-right-section-content">
                         <div class="content-right-section-value">
                             <p class="year">2012-2013</p>
-                            <p class="value">Employee on a filleting plant after finished with Higher Commercial Examination Programme</p>
+                            <p class="value translateable" data-id="workNordis2">Employee on a filleting plant after finished with Higher Commercial Examination Programme</p>
                         </div>
                     </div>
                     <div class="content-right-section-sub-header">
@@ -379,7 +378,7 @@
                     <div class="content-right-section-content">
                         <div class="content-right-section-value">
                             <p class="year">2014</p>
-                            <p class="value">Employee on the cruise-ferry Norröna as a waiter in a restaurant and as a housekeeping assisant</p>
+                            <p class="value translateable" data-id="workNorrona">Employee on the cruise-ferry Norröna as a waiter in a restaurant and as a housekeeping assisant</p>
                         </div>
                     </div>
                 </div>
