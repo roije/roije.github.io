@@ -146,6 +146,14 @@ header {
         .content .content-right .content-right-section .content-right-section-content .content-right-section-value .value {
           flex: 2; }
 
+#download-btn {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: 1px solid #ced4da; }
+  #download-btn i {
+    margin-right: 10px; }
+
 @media (min-width: 320px) and (max-width: 767px) {
   .header-info-content {
     flex-direction: column;

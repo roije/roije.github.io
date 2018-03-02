@@ -221,6 +221,17 @@ header{
     }
 }
 
+#download-btn{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid #ced4da;
+
+    i {
+        margin-right: 10px;
+    }
+}
+
 @media (min-width: 320px) and (max-width: 767px)  {
   .header-info-content{
       flex-direction: column;
