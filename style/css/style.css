@@ -139,7 +139,8 @@ header {
         color: #333333;
         text-transform: uppercase; }
       .content .content-right .content-right-section .content-right-section-content .content-right-section-value {
-        display: flex; }
+        display: flex;
+        border-bottom: 1px solid #f1f1f1; }
         .content .content-right .content-right-section .content-right-section-content .content-right-section-value .year {
           flex: 1; }
         .content .content-right .content-right-section .content-right-section-content .content-right-section-value .value {
