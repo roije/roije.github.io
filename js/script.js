@@ -113,7 +113,7 @@ var languages = {
         "workTechcare" : "Web udvikler hvor jeg har arbejdet med teknologier som Node.js, React.js, Docker og AWS, samt arbejdet på mobil app udvikling med React Native",
         "techCarePeriod" : "Juli 2018 -",
         "internPeriodTechcare" : "August 2018 - Oktober 2018",
-        "internTechcareText": "Arbejdets som en fullstack developer on a web and mobil app hvor jeg har fået erfaring med teknologier som React.js, Redux.js, Node.js, PostgreSQL, Docker, AWS, and React Native"
+        "internTechcareText": "Arbejdet som en fullstack developer på en web and mobil app hvor jeg har fået erfaring med teknologier som React.js, Redux.js, Node.js, PostgreSQL, Docker, AWS, and React Native"
     },
 }
  
