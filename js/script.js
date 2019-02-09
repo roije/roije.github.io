@@ -53,10 +53,10 @@ var languages = {
         "hhx" : "Higher Commercial Examination Programme (HHX)",
         "compScience" : "AP Degree in Computer Science",
         "pbaWeb" : "PBA in Web Development",
-        "yearExpect" : "2017-2019 (expected)",
+        "yearExpect" : "2017-2019",
         "internship" : "Internship",
         "internPeriod" : "January 2017 - March 2017",
-        "internText" : "Worked as a fullstack developer on a food, nutrition and budget management web application for daycare centers where I gained experience in technologies such as React, Redux, NodeJS and PostgreSQL",
+        "internText" : "Worked as a fullstack developer on a food, nutrition and budget management web application for daycare centers where I gained experience in technologies such as React.js, Redux, Node.js and PostgreSQL",
         "workExperience" : "Work experience",
         "workVenus" : "Deckhand on a long liner after finished with 10th grade",
         "workNordis1" : "Employee on a filleting plant after finished with 10th grade",
@@ -69,8 +69,11 @@ var languages = {
         "hobby2" : "<span>></span> When I am relaxing I like to read - I'm a fan of Stephen King books, The Song of Ice and Fire series and I love Tolkien's Middle-earth universe</p>",
         "hobby3" : "<span>></span>  If I don't have any plans I can spend a whole Saturday watching Premier League football</p>",
         "unix" : "Unix based commands",
-        "languageHeader" : "Language:"
-        
+        "languageHeader" : "Language:",
+        "workTechcare": "Web developer using technologies including Node.js, React.js, Docker and AWS, and mobile application developer with React Native",
+        "techCarePeriod" : "July 2018 -",
+        "internPeriodTechcare" : "August 2018 - October 2018",
+        "internTechcareText": "Worked as a fullstack developer on a web and mobile application where I gained experience in technologies such as React.js, Redux, Node.js, PostgreSQL, Docker, AWS, and React Native"
     },
     "da" : {
         "contact" : "Kontakt",
@@ -90,10 +93,10 @@ var languages = {
         "hhx" : "Højere Handelseksamen (HHX)",
         "compScience" : "Datamatiker",
         "pbaWeb" : "PBA i Webudvikling",
-        "yearExpect" : "2017-2019 (forventet)",
+        "yearExpect" : "2017-2019",
         "internship" : "Praktikerfaringer",
         "internPeriod" : "Januar 2017 - Mars 2017",
-        "internText" : "Arbejdede som en fullstack-udvikler på et mad, nærings og budget styringssystem i form af en web applikation egnet for børneinstitutioner. Her fik jeg erfaring at arbejde med teknologier som React, Redux, NodeJS, and PostreSQL",
+        "internText" : "Arbejdede som en fullstack-udvikler på et mad, nærings og budget styringssystem i form af en web applikation egnet for børneinstitutioner. Her fik jeg erfaring at arbejde med teknologier som React.js, Redux, Node.js, and PostreSQL",
         "workExperience" : "Arbejdserfaringer",
         "workVenus" : "Dæksmand på langline fiskebåd efter jeg var færdig med 10. klasse",
         "workNordis1" : "Medarbejder p&aring; en fiske filetfabrik efter 10. klasse",
@@ -106,7 +109,11 @@ var languages = {
         "hobby2" : "<span>></span> Når jeg slapper af kan jeg godt lide at læse en bog - jeg er stor fan af Stephen King bøger, The Song of Ice and Fire serien og jeg elsker Tolkien's Middle-wearth univers</p>",
         "hobby3" : "<span>></span>  Hvis jeg ikke skal noget andet, kan jeg bruge en hel Lørdag på sofaen med Premier League fodbold",
         "unix" : "Unix baserede kommandoer",
-        "languageHeader" : "Sprog:"
+        "languageHeader" : "Sprog:",
+        "workTechcare" : "Web udvikler hvor jeg har arbejdet med teknologier som Node.js, React.js, Docker og AWS, samt arbejdet på mobil app udvikling med React Native",
+        "techCarePeriod" : "Juli 2018 -",
+        "internPeriodTechcare" : "August 2018 - Oktober 2018",
+        "internTechcareText": "Arbejdets som en fullstack developer on a web and mobil app hvor jeg har fået erfaring med teknologier som React.js, Redux.js, Node.js, PostgreSQL, Docker, AWS, and React Native"
     },
 }
  
